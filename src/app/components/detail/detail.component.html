@@ -1,0 +1,22 @@
+<div class="list-buttons">
+    <a mat-stroked-button routerLink="/"><mat-icon aria-hidden="false" aria-label="List icon" fontIcon="arrow_back"></mat-icon>Back</a>
+</div>
+<div *ngIf="loading" class="spinner">
+  <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="!loading">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> {{ character?.name }} </mat-panel-title>
+          <mat-panel-description>
+            <strong>Status:</strong> {{ character?.status }}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <img mat-card-image [src]="character?.image" alt="{{ character?.name }}" />
+        <p><strong>Species:</strong> {{ character?.species }}</p>
+        <p><strong>Gender:</strong> {{ character?.gender }}</p>
+        <p><strong>Origin:</strong> {{ character?.origin?.name }}</p>
+        <p><strong>Location:</strong> {{ character?.location?.name }}</p>
+    </mat-expansion-panel>
+</div>
