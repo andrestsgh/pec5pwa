@@ -1,0 +1,132 @@
+{
+  "configVersion": 1,
+  "timestamp": 1736559007523,
+  "index": "/pec5-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pec5-pwa/favicon.ico",
+        "/pec5-pwa/index.html",
+        "/pec5-pwa/main.447a6761a470c4a5.js",
+        "/pec5-pwa/manifest.webmanifest",
+        "/pec5-pwa/polyfills.5f6a40a3e5d44e18.js",
+        "/pec5-pwa/runtime.d3d24740a57984e4.js",
+        "/pec5-pwa/styles.e06a9809e0fa01f5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pec5-pwa/assets/icons/icon-128x128.jpg",
+        "/pec5-pwa/assets/icons/icon-128x128.png",
+        "/pec5-pwa/assets/icons/icon-144x144.jpg",
+        "/pec5-pwa/assets/icons/icon-144x144.png",
+        "/pec5-pwa/assets/icons/icon-152x152.jpg",
+        "/pec5-pwa/assets/icons/icon-152x152.png",
+        "/pec5-pwa/assets/icons/icon-192x192.jpg",
+        "/pec5-pwa/assets/icons/icon-192x192.png",
+        "/pec5-pwa/assets/icons/icon-256x256.jpg",
+        "/pec5-pwa/assets/icons/icon-256x256.png",
+        "/pec5-pwa/assets/icons/icon-384x384.jpg",
+        "/pec5-pwa/assets/icons/icon-384x384.png",
+        "/pec5-pwa/assets/icons/icon-48x48.jpg",
+        "/pec5-pwa/assets/icons/icon-48x48.png",
+        "/pec5-pwa/assets/icons/icon-512x512.jpg",
+        "/pec5-pwa/assets/icons/icon-512x512.png",
+        "/pec5-pwa/assets/icons/icon-72x72.jpg",
+        "/pec5-pwa/assets/icons/icon-72x72.png",
+        "/pec5-pwa/assets/icons/icon-96x96.jpg",
+        "/pec5-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "character-images",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/rickandmortyapi\\.com\\/api\\/character\\/avatar\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-characters",
+      "patterns": [
+        "https:\\/\\/rickandmortyapi\\.com\\/api\\/character\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 86400000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/pec5-pwa/assets/icons/icon-128x128.jpg": "7cb6c94fbb58a1769546814b0a901090cf189715",
+    "/pec5-pwa/assets/icons/icon-128x128.png": "1245ee57b4df3bca098698815d468b8aac42b3ad",
+    "/pec5-pwa/assets/icons/icon-144x144.jpg": "e7a5cd64a550e55b0caf01fa8564ea21ec321156",
+    "/pec5-pwa/assets/icons/icon-144x144.png": "bc682f92229306ea04cb90eb47897ceb08f604d9",
+    "/pec5-pwa/assets/icons/icon-152x152.jpg": "5a59e98606f161bb30b73896c46d5c85a0f5a928",
+    "/pec5-pwa/assets/icons/icon-152x152.png": "e711aa4f07d6a50254b077cf6c5321884c6b8aa9",
+    "/pec5-pwa/assets/icons/icon-192x192.jpg": "c3870aac04ab2a0bf5e02a700ae5f5e66e64eee1",
+    "/pec5-pwa/assets/icons/icon-192x192.png": "9c7fa34e212807535bb2737e315cfc5a4de8a6ab",
+    "/pec5-pwa/assets/icons/icon-256x256.jpg": "2012c5f9110388488a892d1471d659e334283fc8",
+    "/pec5-pwa/assets/icons/icon-256x256.png": "19200119b81aad52501334bf0a332fcaaf3736eb",
+    "/pec5-pwa/assets/icons/icon-384x384.jpg": "ae0b79885fa48788350daea4c5e6f8a7216e801b",
+    "/pec5-pwa/assets/icons/icon-384x384.png": "37c5a397d2b4462e1c582bd48d974f1b64ff83c1",
+    "/pec5-pwa/assets/icons/icon-48x48.jpg": "8fa6bbfba849ad5bab1eed45ed4615c4914d2b20",
+    "/pec5-pwa/assets/icons/icon-48x48.png": "8bd57292833f2712efd0ed7a3a5d52fbf49121ec",
+    "/pec5-pwa/assets/icons/icon-512x512.jpg": "a7968a2935aa1ea23971d5545e8219cc5c54c3b6",
+    "/pec5-pwa/assets/icons/icon-512x512.png": "df276d74af093e6658fe9eae84d572f416c0a532",
+    "/pec5-pwa/assets/icons/icon-72x72.jpg": "54a47fde0c61ca6a88035fc9df59cc811d524e90",
+    "/pec5-pwa/assets/icons/icon-72x72.png": "70499a8b5d25eb6bdc48c944a97a7c9ef2271063",
+    "/pec5-pwa/assets/icons/icon-96x96.jpg": "72ec8a3d4c5c4132202d0e4689df0dd731aaf417",
+    "/pec5-pwa/assets/icons/icon-96x96.png": "08949dd9efef1bf28f86ee01bfc6da0bb7d45c25",
+    "/pec5-pwa/favicon.ico": "c296b723543f95c804df5cac47b4aa9d3a9464c8",
+    "/pec5-pwa/index.html": "0c0c6d36d540517812f5f01b451af52c8e921d44",
+    "/pec5-pwa/main.447a6761a470c4a5.js": "6d448bf4f3d4e8c16c59a7f720a80bc121a4c171",
+    "/pec5-pwa/manifest.webmanifest": "da3872ed959529213e1e2079205c19354e39cfc3",
+    "/pec5-pwa/polyfills.5f6a40a3e5d44e18.js": "fda6925539c21c1c3a37daa0c8826a762efa2b54",
+    "/pec5-pwa/runtime.d3d24740a57984e4.js": "721a55e284ce19b825f7b9632db25d628bbd4064",
+    "/pec5-pwa/styles.e06a9809e0fa01f5.css": "678cadd702d0344fe9bcdd18725c36697210f248"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
